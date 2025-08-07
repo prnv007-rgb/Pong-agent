@@ -19,5 +19,5 @@ Feeling bored? Play a modern twist on the classic Pong game — this time agains
 4. Keep an eye on the AI — it adapts 👀
 
 
-
+Available at https://playpongai.netlify.app/
 
