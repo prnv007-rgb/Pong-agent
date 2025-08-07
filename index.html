@@ -310,7 +310,7 @@
             }
         }
 
-        // --- Game Logic ---
+   
         function resetBall() {
             ball.x = canvas.width / 2;
             ball.y = canvas.height / 2;
@@ -394,8 +394,7 @@
 
             handleAI();
         }
-        
-        // --- Power-up Logic ---
+
         function spawnPowerUp() {
             const type = powerUpTypes[Math.floor(Math.random() * powerUpTypes.length)];
             powerUp = {
@@ -418,7 +417,6 @@
             }
         }
 
-        // --- RL Functions ---
         function getState() {
             const stateY = Math.floor(ball.y / 20);
             const stateX = Math.floor(ball.x / 20);
@@ -488,7 +486,7 @@
             if (player.y > canvas.height - playerPaddleHeight) player.y = canvas.height - playerPaddleHeight;
         });
         
-        // Initial render
+ 
         requestAnimationFrame(gameLoop);
     </script>
 </body>
